@@ -1,0 +1,113 @@
+$date
+	Wed Aug 05 08:17:16 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module adder_tb $end
+$var wire 1 ! c_out $end
+$var wire 8 " sum [7:0] $end
+$var reg 8 # A [7:0] $end
+$var reg 8 $ B [7:0] $end
+$var reg 1 % c_in $end
+$scope module DUT $end
+$var wire 8 & A [7:0] $end
+$var wire 8 ' B [7:0] $end
+$var wire 1 ( c_In $end
+$var wire 1 ! c_Out $end
+$var wire 9 ) carr [8:0] $end
+$var wire 8 * sum [7:0] $end
+$scope begin adder_loop[0] $end
+$upscope $end
+$scope begin adder_loop[1] $end
+$upscope $end
+$scope begin adder_loop[2] $end
+$upscope $end
+$scope begin adder_loop[3] $end
+$upscope $end
+$scope begin adder_loop[4] $end
+$upscope $end
+$scope begin adder_loop[5] $end
+$upscope $end
+$scope begin adder_loop[6] $end
+$upscope $end
+$scope begin adder_loop[7] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1100 *
+b1111 )
+1(
+b110 '
+b101 &
+1%
+b110 $
+b101 #
+b1100 "
+0!
+$end
+#10
+b10101 "
+b10101 *
+0%
+b11100 )
+0(
+b1111 $
+b1111 '
+b110 #
+b110 &
+#20
+b10010 "
+b10010 *
+1%
+b11111 )
+1(
+b10 $
+b10 '
+b1111 #
+b1111 &
+#30
+0%
+b11110 )
+0(
+b111 $
+b111 '
+b1011 #
+b1011 &
+#40
+b1110 "
+b1110 *
+1%
+b11 )
+1(
+b1001 $
+b1001 '
+b100 #
+b100 &
+#50
+b10010 "
+b10010 *
+0%
+b11110 )
+0(
+b11 $
+b11 '
+b1111 #
+b1111 &
+#60
+b10101 "
+b10101 *
+1%
+b11111 )
+1(
+b111 $
+b111 '
+b1101 #
+b1101 &
+#70
